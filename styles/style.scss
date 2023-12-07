@@ -342,6 +342,70 @@
 
                 .images{
                     @include flex (center, space-around, 95px, row);
+                        &_images1{
+                            position: relative;
+                            p{
+                                position: absolute;
+                                    @include RobotoSlab (15px, 18px, 400);
+                                    padding: 4px 6px;
+                                    color: $white;
+                                    background-color: $blackOpasity;
+                                    top: 10px;
+                                    left: 5px;
+                            }
+
+                            .icon1{
+                                position: absolute;
+                                left: 45%;
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+                       
+                        }
+
+                        &_images2{
+                            position: relative;
+                            p{
+                                position: absolute;
+                                    @include RobotoSlab (15px, 18px, 400);
+                                    padding: 4px 6px;
+                                    color: $white;
+                                    background-color: $blackOpasity;
+                                    top: 10px;
+                                    left: 5px;
+                            }
+
+                            .icon2{
+                                position: absolute;
+                                left: 45%;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                height: 45px;
+                            }
+                       
+                        }
+
+                        &_images3{
+                            position: relative;
+                            p{
+                                position: absolute;
+                                    @include RobotoSlab (15px, 18px, 400);
+                                    padding: 4px 6px;
+                                    color: $white;
+                                    background-color: $blackOpasity;
+                                    top: 10px;
+                                    left: 5px;
+                            }
+
+                            .icon3{
+                                position: absolute;
+                                left: 45%;
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+                       
+                        }
+                        
                         &_img1{
                             width: 300px;
                         }
@@ -354,6 +418,7 @@
                             width: 300px;
                         }
                 }
+
 
         }
 }
