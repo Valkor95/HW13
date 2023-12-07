@@ -117,6 +117,12 @@
   text-transform: uppercase;
   border: 0px;
 }
+.second_box img {
+  position: relative;
+  margin: 70px auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .about {
   padding: 144px 0 124px 0;
@@ -329,6 +335,51 @@
   .fifth_box_cont_img_img1, .fifth_box_cont_img_img2, .fifth_box_cont_img_img3 {
     width: 513px;
   }
+}
+.fifth_box_cont_img .images1 {
+  position: relative;
+}
+.fifth_box_cont_img .images1 p {
+  position: absolute;
+  font-family: "RobotoSlab", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 4px 6px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 10px;
+}
+.fifth_box_cont_img .images2 {
+  position: relative;
+}
+.fifth_box_cont_img .images2 p {
+  position: absolute;
+  font-family: "RobotoSlab", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 4px 6px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 10px;
+}
+.fifth_box_cont_img .images3 {
+  position: relative;
+}
+.fifth_box_cont_img .images3 p {
+  position: absolute;
+  font-family: "RobotoSlab", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 4px 6px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 10px;
 }
 .fifth_box_cont_btn {
   height: 56px;
